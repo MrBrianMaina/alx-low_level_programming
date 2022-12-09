@@ -1,30 +1,30 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 #include <math.h>
 
 /**
- * main - This is the main program
+ * main - Determines if a number is positive, negative or zero.
  *
- * return - this program returns zero
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int naina;
+	int n;
 
-srand(time(0));
-naina = rand() - RAND_MAX / 2;
- if (naina > 0)
-   {
-    printf("%d is positive\n", naina);
-  }
- else if (naina == 0)
-   {
-     printf("%d is zero\n", naina);
-   }
- else
-   {
-     printf("%d is negative\n", naina);
-   }
-return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
+	else
+	{
+		printf("%d is negative\n", n);
+	}
+	return (0);
 }
