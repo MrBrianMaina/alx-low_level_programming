@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * This function Rocks
- * print_numbers - prints numbers between 0 to 9.
+ * print_numbers - The function prints numbers between 0 to 9.
  * Return: no return.
  */
 void print_numbers(void)
