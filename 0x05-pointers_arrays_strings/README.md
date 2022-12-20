@@ -1,0 +1,1 @@
+Pointers_arrays_strings these are them
